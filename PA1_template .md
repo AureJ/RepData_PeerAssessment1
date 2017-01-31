@@ -95,6 +95,7 @@ with(ndata2, plot(mean_steps ~interval,
                  ylab ="Average daily steps taken"))
 
 ```
+![plot2](figure/Plot 2.png)
 
 ### 2. Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
@@ -184,6 +185,7 @@ abline(v=median(ndata3$sum_steps),
        lwd = 2)
 
 ```
+![plot3](figure/Plot 3.png)
 
 ```{r computetime, echo = FALSE}
 mn <- round(mean(ndata3$sum_steps), 1)
@@ -231,6 +233,6 @@ g + geom_line(colour = "blue") + facet_grid(.~day) +
         ylab("Average daily steps taken") 
 
 ```
-
+![plot4](figure/Plot 4.png)
         
 
