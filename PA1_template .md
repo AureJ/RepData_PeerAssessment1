@@ -60,7 +60,7 @@ hist(ndata$sum_steps,
      ylim = c(0, 30),
      labels = TRUE)
 ```
-![plot 1](figure/Plot1.png)
+![plot1](figure/Plot 1.png)
 
 ### 3 . Calculate and report the mean and median of the total number of steps taken per day
 
