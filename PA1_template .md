@@ -60,7 +60,7 @@ hist(ndata$sum_steps,
      ylim = c(0, 30),
      labels = TRUE)
 ```
-
+![plot 1](figure/Plot1.png)
 
 ### 3 . Calculate and report the mean and median of the total number of steps taken per day
 
@@ -170,7 +170,7 @@ ndata3 <- clean_data %>%
 hist(ndata3$sum_steps,
      xlab = "Sum of steps per day",
      ylab = "Frequency",
-     main = "Total number of steps taken per day",
+     main = "Total number of steps taken per day (with missing data imputed)",
      col = "blue",
      ylim = c(0, 30),
      labels = TRUE)
